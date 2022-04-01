@@ -14,7 +14,7 @@ source $WORKSPACE_PATH/dotfiles/all.sh
 
 After any changes have been made to any `.sh` file you will need to close all terminal window & reopen them or type
 ```
-source !/.zshrc
+source ~/.zshrc
 ```
 
 ### Including individual dotfiles
