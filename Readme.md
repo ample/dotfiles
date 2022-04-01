@@ -12,6 +12,11 @@ To include the contents of all of the dotfiles, simply source the `all.sh` file 
 source $WORKSPACE_PATH/dotfiles/all.sh
 ```
 
+After any changes have been made to any `.sh` file you will need to close all terminal window & reopen them or type
+```
+source !/.zshrc
+```
+
 ### Including individual dotfiles
 The dotfiles are broken into domain-specific files, so if you prefer to have your own commands for a given topic you can. The following files can be included individually.
 ```
